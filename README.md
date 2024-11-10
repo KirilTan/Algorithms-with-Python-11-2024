@@ -22,7 +22,7 @@ Throughout this course, the following topics were covered:
 
 ## Score
 
-**TBD**
+*TBD*
 
 ---
 
