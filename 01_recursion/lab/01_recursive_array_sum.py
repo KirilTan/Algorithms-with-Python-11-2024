@@ -15,7 +15,7 @@ def array_sum(nums: List[int], idx: int = 0) -> int:
         return nums[idx]
     return nums[idx] + array_sum(nums, idx + 1)
 
-# # Example:
-# input_nums = [int(x) for x in input().split()]
-#
-# print(array_sum(input_nums))
+# Example:
+input_nums = [int(x) for x in input().split()]
+
+print(array_sum(input_nums))
