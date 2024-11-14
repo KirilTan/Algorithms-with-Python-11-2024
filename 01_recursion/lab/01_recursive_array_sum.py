@@ -4,7 +4,7 @@ def array_sum(nums: List[int], idx: int = 0) -> int:
     """
     Recursively calculates the sum of a list of integers.
 
-    Args:
+    Parameters:
         nums (List[int]): A list of integers to be summed.
         idx (int): The current index in the list to be processed. Defaults to 0.
 
