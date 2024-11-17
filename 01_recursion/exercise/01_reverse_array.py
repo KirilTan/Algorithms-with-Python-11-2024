@@ -2,6 +2,16 @@ from typing import List
 
 
 def reverse_array(elements: List[any], idx: int = 0) -> None:
+    """
+    Reverses the order of elements in a list in place using recursion.
+
+    Parameters:
+        elements (List[any]): The list of elements to be reversed.
+        idx (int): The current index being processed. Defaults to 0.
+
+    Returns:
+        None: The function modifies the list in place and does not return a value.
+    """
     if idx == len(elements) // 2:
         return None
 
