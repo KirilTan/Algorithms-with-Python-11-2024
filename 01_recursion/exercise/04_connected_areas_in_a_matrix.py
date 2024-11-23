@@ -1,4 +1,5 @@
 class Area:
+    # TODO: Dataclass
     def __init__(self, row, col, size):
         self.row = row
         self.col = col
@@ -6,14 +7,19 @@ class Area:
 
 
 def explore_area(row, col, matrix):
+    # TODO: Make it a class
     if row < 0 or col < 0 or row >= len(matrix) or col >= len(matrix[0]):
+        # TODO: function
         return 0
     if matrix[row][col] != '-':
+        # TODO: function
         return 0
 
     matrix[row][col] = 'v'
+    # TODO: function
 
     result = 1
+    # TODO: class Direction
     result += explore_area(row - 1, col, matrix)
     result += explore_area(row + 1, col, matrix)
     result += explore_area(row, col - 1, matrix)
