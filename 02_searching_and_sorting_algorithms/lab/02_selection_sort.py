@@ -1,4 +1,3 @@
-# TODO: Abstract with a class and methods, add docstrings
 nums = [int(x) for x in input().split()]
 
 for idx in range(len(nums)):

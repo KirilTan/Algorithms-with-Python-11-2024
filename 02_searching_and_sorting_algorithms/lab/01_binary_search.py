@@ -1,4 +1,3 @@
-# TODO: Class + recursion + docstring
 def binary_search(numbers, target):
     left_border = 0
     right_border = len(numbers) - 1
